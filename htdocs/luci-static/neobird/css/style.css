@@ -554,39 +554,12 @@ img[src*="/luci-static/resources/cbi/reload.gif"] {
     display: inline-block;
 }
 
-.navbar {
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border-top: var(--navBorder);
-  text-align: center;
-  height:calc(50px + constant(safe-area-inset-bottom));
-  height:calc(50px + env(safe-area-inset-bottom));
-  background-color: var(--navbgColor);
-    -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-}
-
-.navbar a {
-    float: left;
-    text-align: center;
-    padding: 8px 0;
-    width: 20%;
-    text-decoration: none;
-    max-width: 100px;
-}
-
 .cbi-map {
     margin-top: 10px;
 }
 
 #cbi-shadowsocksr .cbi-map-descr {
     display: none;
-}
-
-.navbar a img {
-  width: 28px;
 }
 
 @keyframes anim-rotate {
